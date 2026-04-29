@@ -1,0 +1,279 @@
+[
+  {
+    "id": 1,
+    "question": "Does the notification of practicing the profession of physiotherapist concern you as a natural person?",
+    "options": [
+      {
+        "id": 1,
+        "option_text": "Yes, it concerns me as a natural person.",
+        "next_step": 2,
+        "terminate": false,
+        "evidence_ids": [1, 3, 8, 9]
+      },
+      {
+        "id": 2,
+        "option_text": "No, it does not concern a natural person.",
+        "next_step": null,
+        "terminate": true,
+        "eligible": false,
+        "termination_reason": "Not eligible: the procedure is addressed to natural persons."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "How will the Application-Solemn Declaration for the notification of practicing the profession of physiotherapist be submitted?",
+    "options": [
+      {
+        "id": 1,
+        "option_text": "Digitally by the applicant.",
+        "next_step": 3,
+        "terminate": false
+      },
+      {
+        "id": 2,
+        "option_text": "In person or by post by the applicant.",
+        "next_step": 3,
+        "terminate": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Which of the following educational cases covers your physiotherapy degree?",
+    "options": [
+      {
+        "id": 1,
+        "option_text": "I hold a degree from the Higher School of Physiotherapists of the Athens General Hospital \"Vasilefs Pavlos\", or from the former KATEE/KATE physiotherapy schools, or from a TEI physiotherapy department, or from a Greek university School/Department of Physiotherapy.",
+        "next_step": 5,
+        "terminate": false,
+        "evidence_ids": [4]
+      },
+      {
+        "id": 2,
+        "option_text": "I hold a degree from an equivalent foreign school according to the legislation in force.",
+        "next_step": 4,
+        "terminate": false
+      },
+      {
+        "id": 3,
+        "option_text": "I do not hold a degree that falls under any of the above cases.",
+        "next_step": null,
+        "terminate": true,
+        "eligible": false,
+        "termination_reason": "Not eligible: the educational requirement of holding a prescribed physiotherapy degree is not met."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "For the degree or professional qualifications obtained abroad, which recognition applies to your case?",
+    "options": [
+      {
+        "id": 1,
+        "option_text": "My degree is a foreign degree with equivalence and correspondence of the study title from the competent recognition services, DOATAP or ITE.",
+        "next_step": 5,
+        "terminate": false,
+        "evidence_ids": [5]
+      },
+      {
+        "id": 2,
+        "option_text": "I am a citizen of an EU Member State and obtained my professional qualifications in another Member State, either as self-employed or as an employee, with recognition of professional qualifications or professional equivalence by ATEEN.",
+        "next_step": 5,
+        "terminate": false,
+        "evidence_ids": [6]
+      },
+      {
+        "id": 3,
+        "option_text": "I do not fall under any of the above recognition cases.",
+        "next_step": null,
+        "terminate": true,
+        "eligible": false,
+        "termination_reason": "Not eligible: the required recognition for a foreign degree or professional qualifications is not met."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Have you been convicted of a criminal offence or of an offence related to practicing the professional capacity of physiotherapist?",
+    "options": [
+      {
+        "id": 1,
+        "option_text": "No, I have not been convicted of any criminal offence or any offence related to practicing my professional capacity.",
+        "next_step": 6,
+        "terminate": false,
+        "evidence_ids": [10]
+      },
+      {
+        "id": 2,
+        "option_text": "Yes, I have been convicted of a criminal offence or an offence related to practicing my professional capacity.",
+        "next_step": null,
+        "terminate": true,
+        "eligible": false,
+        "termination_reason": "Not eligible: the requirement regarding non-commission of criminal offences is not met."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Which of the following citizenship or lawful residence statuses applies to your case?",
+    "options": [
+      {
+        "id": 1,
+        "option_text": "I am a Greek citizen.",
+        "next_step": 7,
+        "terminate": false
+      },
+      {
+        "id": 2,
+        "option_text": "I am a citizen of an EU Member State with EU citizen registration and certified Greek language proficiency at B2 level.",
+        "next_step": 7,
+        "terminate": false,
+        "evidence_ids": [11]
+      },
+      {
+        "id": 3,
+        "option_text": "I am a European citizen with permanent residence and certified Greek language proficiency at B2 level.",
+        "next_step": 7,
+        "terminate": false,
+        "evidence_ids": [12]
+      },
+      {
+        "id": 4,
+        "option_text": "I am a person of Greek origin with a special identity card for persons of Greek origin and certified Greek language proficiency at B2 level.",
+        "next_step": 7,
+        "terminate": false,
+        "evidence_ids": [13]
+      },
+      {
+        "id": 5,
+        "option_text": "I am a person of Greek origin with a residence permit for persons of Greek origin and certified Greek language proficiency at B2 level.",
+        "next_step": 7,
+        "terminate": false,
+        "evidence_ids": [14]
+      },
+      {
+        "id": 6,
+        "option_text": "I am a third-country national with proof of submission of an application to renew a residence permit and certified Greek language proficiency at B2 level.",
+        "next_step": 7,
+        "terminate": false,
+        "evidence_ids": [15]
+      },
+      {
+        "id": 7,
+        "option_text": "I am a family member of a Greek citizen with permanent residence and certified Greek language proficiency at B2 level.",
+        "next_step": 7,
+        "terminate": false,
+        "evidence_ids": [16]
+      },
+      {
+        "id": 8,
+        "option_text": "I am a family member of a Greek citizen with residence and certified Greek language proficiency at B2 level.",
+        "next_step": 7,
+        "terminate": false,
+        "evidence_ids": [17]
+      },
+      {
+        "id": 9,
+        "option_text": "I am a third-country national with a personal residence permit and certified Greek language proficiency at B2 level.",
+        "next_step": 7,
+        "terminate": false,
+        "evidence_ids": [18]
+      },
+      {
+        "id": 10,
+        "option_text": "I am a third-country national with a long-term resident permit and certified Greek language proficiency at B2 level.",
+        "next_step": 7,
+        "terminate": false,
+        "evidence_ids": [19]
+      },
+      {
+        "id": 11,
+        "option_text": "I have a second-generation residence permit and certified Greek language proficiency at B2 level.",
+        "next_step": 7,
+        "terminate": false,
+        "evidence_ids": [20]
+      },
+      {
+        "id": 12,
+        "option_text": "I have a highly qualified employment residence permit, the EU Blue Card, and certified Greek language proficiency at B2 level.",
+        "next_step": 7,
+        "terminate": false,
+        "evidence_ids": [21]
+      },
+      {
+        "id": 13,
+        "option_text": "I have a ten-year residence permit and certified Greek language proficiency at B2 level.",
+        "next_step": 7,
+        "terminate": false,
+        "evidence_ids": [22]
+      },
+      {
+        "id": 14,
+        "option_text": "I have a residence title and a cohabitation agreement with a Greek citizen, with certified Greek language proficiency at B2 level.",
+        "next_step": 7,
+        "terminate": false,
+        "evidence_ids": [23]
+      },
+      {
+        "id": 15,
+        "option_text": "I do not fall under any of the above citizenship or lawful residence statuses.",
+        "next_step": null,
+        "terminate": true,
+        "eligible": false,
+        "termination_reason": "Not eligible: none of the prescribed citizenship or lawful residence cases is covered."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "Is the requirement for registration with the Panhellenic Association of Physiotherapists met?",
+    "options": [
+      {
+        "id": 1,
+        "option_text": "Yes, I am registered with the Panhellenic Association of Physiotherapists.",
+        "next_step": 8,
+        "terminate": false,
+        "evidence_ids": [7]
+      },
+      {
+        "id": 2,
+        "option_text": "I have a decision recognizing professional qualifications or professional equivalence from ATEEN, I have applied for registration with the competent professional body, and the thirty-day deadline has passed without action.",
+        "next_step": 8,
+        "terminate": false,
+        "evidence_ids": [7]
+      },
+      {
+        "id": 3,
+        "option_text": "No, the requirement for registration or presumed registration with the Panhellenic Association of Physiotherapists is not met.",
+        "next_step": null,
+        "terminate": true,
+        "eligible": false,
+        "termination_reason": "Not eligible: the registration requirement with the Panhellenic Association of Physiotherapists is not met."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Is the locally competent Regional Unit for the notification located in the territory of the Cyclades?",
+    "options": [
+      {
+        "id": 1,
+        "option_text": "Yes, it concerns the Regional Unit of Andros, Thira, Kea-Kythnos, Milos, Mykonos, Naxos, Paros, Syros or Tinos.",
+        "next_step": null,
+        "terminate": true,
+        "eligible": true,
+        "termination_reason": "The requirements of this flow are met. The special Cyclades fee is also added to the list of documents and fees.",
+        "evidence_ids": [2]
+      },
+      {
+        "id": 2,
+        "option_text": "No, it does not concern a Regional Unit in the territory of the Cyclades.",
+        "next_step": null,
+        "terminate": true,
+        "eligible": true,
+        "termination_reason": "The requirements of this flow are met."
+      }
+    ]
+  }
+]

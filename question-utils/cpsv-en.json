@@ -1,0 +1,283 @@
+{
+  "PublicService": {
+    "name": "Notification of Practicing the Profession of Physiotherapist",
+    "description": "The procedure concerns the notification of practicing the profession of physiotherapist by the Public Health Directorates of the Regional Units and is addressed to natural persons.",
+    "evidence": [
+      {
+        "id": 1,
+        "evs": [
+          {
+            "id": "ev0001",
+            "type": "Cost",
+            "name": "e-Paravolo/fee for a health profession practice licence.",
+            "description": "One-off fee of 8.00 euros for a health profession practice licence, using e-Paravolo code 5015."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "evs": [
+          {
+            "id": "ev0002",
+            "type": "Cost",
+            "name": "Special Cyclades reciprocal fee of 14.67 euros.",
+            "description": "For the Regional Units of Andros, Thira, Kea-Kythnos, Milos, Mykonos, Naxos, Paros, Syros and Tinos, an additional reciprocal fee of 14.67 euros is paid to Piraeus Bank IBAN GR3601727100005710052440659."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "evs": [
+          {
+            "id": "ev0003",
+            "type": "Evidence",
+            "name": "Two colour identity-card-size photographs.",
+            "description": "Two colour identity-card-size photographs must be submitted."
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "evs": [
+          {
+            "id": "ev0004",
+            "type": "Evidence",
+            "name": "Copy of a Greek TEI or university degree.",
+            "description": "Copy of a Greek TEI or university degree, according to the prescribed educational cases."
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "evs": [
+          {
+            "id": "ev0005",
+            "type": "Evidence",
+            "name": "Copy of a foreign degree and DOATAP or ITE equivalence and correspondence act.",
+            "description": "Copy of the foreign degree and the act of equivalence and correspondence of the study title issued by the competent recognition services, DOATAP or ITE. Foreign public documents must be translated and legally certified where required."
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "evs": [
+          {
+            "id": "ev0006",
+            "type": "Evidence",
+            "name": "Copy of a foreign degree and ATEEN professional equivalence or equality decision.",
+            "description": "Copy of the foreign degree and a professional equivalence or equality decision issued by the Autonomous Department for the Implementation of European Legislation (ATEEN)."
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "evs": [
+          {
+            "id": "ev0007",
+            "type": "Evidence",
+            "name": "Certificate of registration with the Panhellenic Association of Physiotherapists.",
+            "description": "A certificate of registration with the Panhellenic Association of Physiotherapists is submitted. For presumed registration because the thirty-day deadline passed without action, the registration application details and the relevant certificate, where issued, are submitted."
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "evs": [
+          {
+            "id": "ev0008",
+            "type": "Cost",
+            "name": "Proof of payment of the 8.00 euro stamp-duty fee.",
+            "description": "The payment proof is submitted with the application. For electronic submission, it is submitted in digitised form."
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "evs": [
+          {
+            "id": "ev0009",
+            "type": "Evidence",
+            "name": "Copy of identity card or another identification document.",
+            "description": "For Greek citizens, where the relevant electronic service applies, the public authority retrieves the digital copy of the identity card ex officio."
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "evs": [
+          {
+            "id": "ev0010",
+            "type": "Evidence",
+            "name": "Criminal record copy.",
+            "description": "Required for the condition concerning non-commission of criminal offences or offences related to practicing the professional capacity."
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "evs": [
+          {
+            "id": "ev0011",
+            "type": "Evidence",
+            "name": "EU citizen registration certificate and B2 Greek language certificate.",
+            "description": "The B2 Greek language certificate is issued by the Centre for the Greek Language or by the competent university schools of modern Greek language referred to in the procedure."
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "evs": [
+          {
+            "id": "ev0012",
+            "type": "Evidence",
+            "name": "Permanent residence certificate/European citizen card and B2 Greek language certificate.",
+            "description": "A permanent residence certificate or European citizen card and a B2 Greek language certificate are required."
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "evs": [
+          {
+            "id": "ev0013",
+            "type": "Evidence",
+            "name": "Identity card for persons of Greek origin and B2 Greek language certificate.",
+            "description": "An identity card for persons of Greek origin and a B2 Greek language certificate are required."
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "evs": [
+          {
+            "id": "ev0014",
+            "type": "Evidence",
+            "name": "Residence permit for persons of Greek origin and B2 Greek language certificate.",
+            "description": "A residence permit for persons of Greek origin and a B2 Greek language certificate are required."
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "evs": [
+          {
+            "id": "ev0015",
+            "type": "Evidence",
+            "name": "Proof of submission of an application to renew a residence permit and B2 Greek language certificate.",
+            "description": "Concerns the prescribed cases of third-country nationals renewing a residence permit and is accompanied by a B2 Greek language certificate."
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "evs": [
+          {
+            "id": "ev0016",
+            "type": "Evidence",
+            "name": "Permanent residence card for a family member of a Greek citizen and B2 Greek language certificate.",
+            "description": "A permanent residence card for a family member of a Greek citizen and a B2 Greek language certificate are required."
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "evs": [
+          {
+            "id": "ev0017",
+            "type": "Evidence",
+            "name": "Residence card for a family member of a Greek citizen and B2 Greek language certificate.",
+            "description": "A residence card for a family member of a Greek citizen and a B2 Greek language certificate are required."
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "evs": [
+          {
+            "id": "ev0018",
+            "type": "Evidence",
+            "name": "Personal residence permit for a third-country national and B2 Greek language certificate.",
+            "description": "Concerns a personal residence permit under the relevant provisions and is accompanied by a B2 Greek language certificate."
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "evs": [
+          {
+            "id": "ev0019",
+            "type": "Evidence",
+            "name": "Long-term resident permit for a third-country national and B2 Greek language certificate.",
+            "description": "A long-term resident permit for a third-country national and a B2 Greek language certificate are required."
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "evs": [
+          {
+            "id": "ev0020",
+            "type": "Evidence",
+            "name": "Second-generation residence permit and B2 Greek language certificate.",
+            "description": "A second-generation residence permit and a B2 Greek language certificate are required."
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "evs": [
+          {
+            "id": "ev0021",
+            "type": "Evidence",
+            "name": "Highly qualified employment residence permit, EU Blue Card, and B2 Greek language certificate.",
+            "description": "A highly qualified employment residence permit, the EU Blue Card, and a B2 Greek language certificate are required."
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "evs": [
+          {
+            "id": "ev0022",
+            "type": "Evidence",
+            "name": "Ten-year residence permit and B2 Greek language certificate.",
+            "description": "A ten-year residence permit and a B2 Greek language certificate are required."
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "evs": [
+          {
+            "id": "ev0023",
+            "type": "Evidence",
+            "name": "Residence title, cohabitation agreement with a Greek citizen, and B2 Greek language certificate.",
+            "description": "A residence title and a family-status certificate proving the cohabitation agreement with a Greek citizen are required. Where applicable, the public authority retrieves the family-status certificate ex officio."
+          }
+        ]
+      }
+    ],
+    "criterion_requirements": [
+      {
+        "id": "cr0001",
+        "name": "The procedure is addressed to natural persons."
+      },
+      {
+        "id": "cr0002",
+        "name": "The applicant must hold a prescribed Greek physiotherapy degree or a recognised foreign title/qualification."
+      },
+      {
+        "id": "cr0003",
+        "name": "The applicant declares that they have not been convicted of a criminal offence or an offence related to practicing the professional capacity."
+      },
+      {
+        "id": "cr0004",
+        "name": "One of the prescribed citizenship or lawful residence cases must be covered."
+      },
+      {
+        "id": "cr0005",
+        "name": "Registration or presumed registration with the Panhellenic Association of Physiotherapists is required."
+      }
+    ]
+  }
+}
