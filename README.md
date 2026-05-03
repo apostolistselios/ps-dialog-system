@@ -42,43 +42,11 @@ project
 │ ├── cpsv.json # evidences and fees in Greek
 │ ├── faq-en.json # FAQs in English
 │ ├── faq.json # FAQs in Greek
+├── data/
+│ ├── llm-generated-dialog.json # Dialog that the LLM generated based on the api_data.json that was taken from Mitos API.
+│ └── api-data.json # Mitos API data
+├── bpmn/
+│ ├── llm-generated-diagram.png # BPMN diagram that the LLM generated based on the ./data/llm-generated-dialog.json.
+│ └── manual-diagram.png # BPMN diagram created manually after analyzing the Mitos Public Service.
 └── README.md # Project documentation
 ```
-
-## Deployment Instructions
-
-(Note: You should already have uploaded your project to a github repo)
-
-To deploy your site to GitHub Pages, follow these steps:
-
-1.Make the repository public (unless you have a GitHub Pro account, which allows private repositories to be deployed).
-
-2.Go to the repository's settings:
-
-- Navigate to your repository on GitHub.
-- Click on the "Settings" tab at the top of the repository page.
-
-  3.Select "Pages" from the menu:
-
-- On the left-hand side of the settings page, find and click on "Pages".
-
-  4.Configure the deployment source:
-
-- In the "Source" section, select "Deploy from a branch".
-- Choose the branch you want to deploy. It is recommended to merge all your branches into the main branch and deploy from there for simplicity and consistency.
-
-Here’s a visual guide to the steps:
-
-<div float="left">
-  <img src="screens/deployment.png" />
-</div>
-
-After successfully completing the previous steps, wait a few seconds and refresh the page. You should see the deployment URL at the topp of the Page (green box in the screenshot).
-
-Note: Once set up, any changes pushed to the main branch will be automatically deployed to GitHub Pages.
-
-By following these steps, your site will be live and accessible via the provided URL.
-
-## Acknowledgments
-
-This project was developed as part of a thesis assignment. Special thanks to our professors and mentors for their guidance and support.
